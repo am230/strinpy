@@ -1,5 +1,5 @@
 React like string builder
-===============================
+=========================
 
 .. image:: https://img.shields.io/github/license/mashape/apistatus.svg
    :target: http://opensource.org/licenses/MIT

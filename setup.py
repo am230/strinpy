@@ -9,7 +9,7 @@ py_modules = [name]
 
 setup(
     name=name,
-    version="0.0.1",
+    version="0.0.2",
     keywords=["string"],
     description="React like string builder",
     long_description=long_description,
