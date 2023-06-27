@@ -13,7 +13,6 @@ setup(
     keywords=["string"],
     description="React like string builder",
     long_description=long_description,
-    requires=[''],
     license="MIT Licence",
     long_description_content_type='text/x-rst',
     packages=find_packages(),
