@@ -20,7 +20,8 @@ class Builder(_t.Generic[V]):
     def format_value(self, value: V | Value) -> _t.Tuple[str]:
         if value in (False, None):
             return EMPTY_TUPLE
-        if isinstance(value, list):
+        type_ = type(value)
+        if type_ in (list, tuple, set, map, filter, frozenset):
             return tuple(itertools.chain.from_iterable(map(self.format_value, value)))
         elif callable(value):
             return value()
